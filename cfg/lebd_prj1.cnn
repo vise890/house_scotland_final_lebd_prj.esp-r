@@ -1,5 +1,5 @@
 *connections for lebd_prj1
-*Date Sun Mar  3 17:37:49 2013
+*Date Sun Mar  3 18:00:57 2013
      30   # number of connections
    1   1  -1   0   0  #    1 living-S in living not yet defined
    1   2  -1   0   0  #    2 living-E in living not yet defined

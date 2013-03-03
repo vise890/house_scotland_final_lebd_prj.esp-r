@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,bdrooms # tag version, format, zone name
-*date Sun Mar  3 17:28:36 2013  # latest file modification 
+*date Sun Mar  3 18:00:56 2013  # latest file modification 
 bdrooms describes a
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,4.00000,3.00000  #   1
@@ -16,14 +16,14 @@ bdrooms describes a
 *vertex,8.50000,4.00000,6.00000  #  12
 # 
 # tag, number of vertices followed by list of associated vert
-*edges,4,1,2,8,7  #  1
-*edges,4,2,3,9,8  #  2
-*edges,4,3,4,10,9  #  3
-*edges,4,4,5,11,10  #  4
-*edges,4,5,6,12,11  #  5
-*edges,4,6,1,7,12  #  6
-*edges,6,7,8,9,10,11,12  #  7
-*edges,6,1,6,5,4,3,2  #  8
+*edges,4,2,1,7,8  #  1
+*edges,4,3,2,8,9  #  2
+*edges,4,4,3,9,10  #  3
+*edges,4,5,4,10,11  #  4
+*edges,4,6,5,11,12  #  5
+*edges,4,1,6,12,7  #  6
+*edges,6,8,7,12,11,10,9  #  7
+*edges,6,6,1,2,3,4,5  #  8
 # 
 # surf attributes:
 #  surf name, surf position VERT/CEIL/FLOR/SLOP/UNKN
@@ -36,8 +36,8 @@ bdrooms describes a
 *surf,bdrms-strs-S,VERT,-,-,-,int_part,OPAQUE,UNKNOWN,0,0  #   4 ||< not yet defined
 *surf,bdrms-E,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   5 ||< not yet defined
 *surf,bdrms-S,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   6 ||< not yet defined
-*surf,bdrms-top,FLOR,-,-,-,PH_roof,OPAQUE,UNKNOWN,0,0  #   7 ||< not yet defined
-*surf,bdrms-bot,CEIL,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   8 ||< not yet defined
+*surf,bdrms-top,CEIL,-,-,-,PH_roof,OPAQUE,UNKNOWN,0,0  #   7 ||< not yet defined
+*surf,bdrms-bot,FLOR,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   8 ||< not yet defined
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
