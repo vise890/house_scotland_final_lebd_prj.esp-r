@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,living # tag version, format, zone name
-*date Sun Mar  3 17:14:04 2013  # latest file modification 
+*date Sun Mar  3 17:31:20 2013  # latest file modification 
 living describes a
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,0.00000,0.00000  #   1
@@ -27,13 +27,13 @@ living describes a
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,Wall-1,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   1 ||< not yet defined
-*surf,Wall-2,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   2 ||< not yet defined
-*surf,Wall-3,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   3 ||< not yet defined
-*surf,Wall-4,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   4 ||< not yet defined
-*surf,Top-5,CEIL,-,-,-,ceiling,OPAQUE,UNKNOWN,0,0  #   5 ||< not yet defined
-*surf,Base-6,FLOR,-,-,-,grnd_floor,OPAQUE,UNKNOWN,0,0  #   6 ||< not yet defined
-*surf,living-srs,VERT,-,-,-,int_part,OPAQUE,UNKNOWN,0,0  #   7 ||< external
+*surf,living-S,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   1 ||< not yet defined
+*surf,living-E,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   2 ||< not yet defined
+*surf,living-garag,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   3 ||< not yet defined
+*surf,living-W,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   4 ||< not yet defined
+*surf,living-top,CEIL,-,-,-,ceiling,OPAQUE,UNKNOWN,0,0  #   5 ||< not yet defined
+*surf,living-bot,FLOR,-,-,-,grnd_floor,OPAQUE,UNKNOWN,0,0  #   6 ||< not yet defined
+*surf,living-strs,VERT,-,-,-,int_part,OPAQUE,UNKNOWN,0,0  #   7 ||< external
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
