@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,garage # tag version, format, zone name
-*date Sun Mar  3 19:11:40 2013  # latest file modification 
+*date Sun Mar  3 19:23:12 2013  # latest file modification 
 garage describes a
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,7.00000,0.00000  #   1
@@ -28,7 +28,7 @@ garage describes a
 *surf,gar-strs,VERT,-,-,-,PH_ext_wll_i,OPAQUE,ANOTHER,03,04  #   2 ||< strs-garage:stairs
 *surf,gar-N,VERT,-,-,-,extern_wall,OPAQUE,EXTERIOR,0,0  #   3 ||< external
 *surf,gar-W,VERT,-,-,-,extern_wall,OPAQUE,EXTERIOR,0,0  #   4 ||< external
-*surf,gar-bdrms,CEIL,-,-,-,susp_flr_re,OPAQUE,ANOTHER,04,09  #   5 ||< bdrms-garage:bdrooms
+*surf,gar-bdrms,CEIL,-,-,-,PH_ext_wll_i,OPAQUE,ANOTHER,04,09  #   5 ||< bdrms-garage:bdrooms
 *surf,gar-bot,FLOR,-,-,-,grnd_floor,OPAQUE,GROUND,01,00  #   6 ||< ground profile  1
 # 
 *insol,3,0,0,0  # default insolation distribution
