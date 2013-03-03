@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,bdrooms # tag version, format, zone name
-*date Sun Mar  3 17:26:13 2013  # latest file modification 
+*date Sun Mar  3 17:28:36 2013  # latest file modification 
 bdrooms describes a
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,4.00000,3.00000  #   1
@@ -30,13 +30,13 @@ bdrooms describes a
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,bdrms-W,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   1 ||< not yet defined
-*surf,Bdrms-N,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   2 ||< not yet defined
-*surf,bdrms-strs-E,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   3 ||< not yet defined
-*surf,bdrms-strs-S,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   4 ||< not yet defined
-*surf,bdrms-E,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   5 ||< not yet defined
-*surf,bdrms-S,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   6 ||< not yet defined
-*surf,bdrms-top,FLOR,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   7 ||< not yet defined
+*surf,bdrms-W,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   1 ||< not yet defined
+*surf,Bdrms-N,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   2 ||< not yet defined
+*surf,bdrms-strs-E,VERT,-,-,-,int_part,OPAQUE,UNKNOWN,0,0  #   3 ||< not yet defined
+*surf,bdrms-strs-S,VERT,-,-,-,int_part,OPAQUE,UNKNOWN,0,0  #   4 ||< not yet defined
+*surf,bdrms-E,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   5 ||< not yet defined
+*surf,bdrms-S,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   6 ||< not yet defined
+*surf,bdrms-top,FLOR,-,-,-,PH_roof,OPAQUE,UNKNOWN,0,0  #   7 ||< not yet defined
 *surf,bdrms-bot,CEIL,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   8 ||< not yet defined
 # 
 *insol,3,0,0,0  # default insolation distribution
