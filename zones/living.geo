@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,living # tag version, format, zone name
-*date Sun Mar  3 18:18:52 2013  # latest file modification 
+*date Sun Mar  3 19:11:26 2013  # latest file modification 
 living describes a
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,0.00000,0.00000  #   1
@@ -43,7 +43,7 @@ living describes a
 *surf,living-bot,FLOR,-,-,-,grnd_floor,OPAQUE,GROUND,01,00  #   6 ||< ground profile  1
 *surf,living-strs,VERT,-,-,-,int_part,OPAQUE,ANOTHER,03,01  #   7 ||< strs-living-:stairs
 *surf,living-bdrms,CEIL,-,-,-,ceiling,OPAQUE,ANOTHER,04,08  #   8 ||< bdrms-living:bdrooms
-*surf,S-glz,VERT,living-S,C-WINDOW,CLOSED,tripglz_089,TRAN,EXTERIOR,0,0  #   9 ||< external
+*surf,S-glz,VERT,living-S,C-WINDOW,CLOSED,tripglz_089,tr_Kgl_arg,EXTERIOR,0,0  #   9 ||< external
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,stairs # tag version, format, zone name
-*date Sun Mar  3 18:15:56 2013  # latest file modification 
+*date Sun Mar  3 19:11:27 2013  # latest file modification 
 stairs describes a
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,5.50000,7.00000,0.00000  #   1
@@ -30,10 +30,10 @@ stairs describes a
 #  construction name, optical name
 #  boundary condition tag followed by two data items
 *surf,strs-living-,VERT,-,-,-,int_part,OPAQUE,ANOTHER,01,07  #   1 ||< living-strs:living
-*surf,strs-E,VERT,-,-,-,PH_ext_wll,OPAQUE,EXTERIOR,00,00  #   2 ||< external
-*surf,strs-N,VERT,-,-,-,PH_ext_wll,OPAQUE,EXTERIOR,00,00  #   3 ||< external
+*surf,strs-E,VERT,-,-,-,PH_ext_wll,OPAQUE,EXTERIOR,0,0  #   2 ||< external
+*surf,strs-N,VERT,-,-,-,PH_ext_wll,OPAQUE,EXTERIOR,0,0  #   3 ||< external
 *surf,strs-garage,VERT,-,-,-,PH_ext_wll,OPAQUE,ANOTHER,02,02  #   4 ||< gar-strs:garage
-*surf,strs-top,CEIL,-,-,-,PH_roof,OPAQUE,EXTERIOR,00,00  #   5 ||< external
+*surf,strs-top,CEIL,-,-,-,PH_roof,OPAQUE,EXTERIOR,0,0  #   5 ||< external
 *surf,strs-bot,FLOR,-,-,-,grnd_floor,OPAQUE,GROUND,01,00  #   6 ||< ground profile  1
 *surf,strs-bdrms-W,VERT,-,-,-,int_part,OPAQUE,ANOTHER,04,03  #   7 ||< bdrms-strs-E:bdrooms
 *surf,strs-bdrms-S,VERT,-,-,-,int_part,OPAQUE,ANOTHER,04,04  #   8 ||< bdrms-strs-S:bdrooms
