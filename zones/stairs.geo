@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,stairs # tag version, format, zone name
-*date Sun Mar  3 17:23:39 2013  # latest file modification 
+*date Sun Mar  3 18:15:56 2013  # latest file modification 
 stairs describes a
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,5.50000,7.00000,0.00000  #   1
@@ -22,21 +22,21 @@ stairs describes a
 *edges,4,5,6,7,8  #  5
 *edges,4,1,4,3,2  #  6
 *edges,4,10,9,5,8  #  7
-*edges,4,9,2,6,5  #  8
+*edges,4,9,11,6,5  #  8
 # 
 # surf attributes:
 #  surf name, surf position VERT/CEIL/FLOR/SLOP/UNKN
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,strs-living-,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   1 ||< not yet defined
-*surf,strs-E,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   2 ||< not yet defined
-*surf,strs-N,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   3 ||< not yet defined
-*surf,strs-garage,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   4 ||< not yet defined
-*surf,strs-top,CEIL,-,-,-,PH_roof,OPAQUE,UNKNOWN,0,0  #   5 ||< not yet defined
-*surf,strs-bot,FLOR,-,-,-,grnd_floor,OPAQUE,UNKNOWN,0,0  #   6 ||< not yet defined
-*surf,strs-bdrms-W,VERT,-,-,-,int_part,OPAQUE,UNKNOWN,0,0  #   7 ||< external
-*surf,strs-bdrms-S,VERT,-,-,-,int_part,OPAQUE,UNKNOWN,0,0  #   8 ||< external
+*surf,strs-living-,VERT,-,-,-,int_part,OPAQUE,ANOTHER,01,07  #   1 ||< living-strs:living
+*surf,strs-E,VERT,-,-,-,PH_ext_wll,OPAQUE,EXTERIOR,00,00  #   2 ||< external
+*surf,strs-N,VERT,-,-,-,PH_ext_wll,OPAQUE,EXTERIOR,00,00  #   3 ||< external
+*surf,strs-garage,VERT,-,-,-,PH_ext_wll,OPAQUE,ANOTHER,02,02  #   4 ||< gar-strs:garage
+*surf,strs-top,CEIL,-,-,-,PH_roof,OPAQUE,EXTERIOR,00,00  #   5 ||< external
+*surf,strs-bot,FLOR,-,-,-,grnd_floor,OPAQUE,GROUND,01,00  #   6 ||< ground profile  1
+*surf,strs-bdrms-W,VERT,-,-,-,int_part,OPAQUE,ANOTHER,04,03  #   7 ||< bdrms-strs-E:bdrooms
+*surf,strs-bdrms-S,VERT,-,-,-,int_part,OPAQUE,ANOTHER,04,04  #   8 ||< bdrms-strs-S:bdrooms
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

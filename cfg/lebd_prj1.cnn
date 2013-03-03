@@ -1,34 +1,36 @@
 *connections for lebd_prj1
-*Date Sun Mar  3 18:10:51 2013
-     31   # number of connections
-   1   1  -1   0   0  #    1 living-S in living not yet defined
-   1   2  -1   0   0  #    2 living-E in living not yet defined
-   1   3  -1   0   0  #    3 living-garag in living not yet defined
-   1   4  -1   0   0  #    4 living-W in living not yet defined
-   1   5  -1   0   0  #    5 living-top in living not yet defined
-   1   6  -1   0   0  #    6 living-bot in living not yet defined
-   1   7   0   0   0  #    7 living-strs in living is External
-   1   8   0   0   0  #    8 living-bdrms in living is External
-   2   1  -1   0   0  #    9 gar-living in garage not yet defined
-   2   2  -1   0   0  #   10 gar-strs in garage not yet defined
-   2   3  -1   0   0  #   11 gar-N in garage not yet defined
-   2   4  -1   0   0  #   12 gar-W in garage not yet defined
-   2   5  -1   0   0  #   13 gar-bdrms in garage not yet defined
-   2   6  -1   0   0  #   14 gar-bot in garage not yet defined
-   3   1  -1   0   0  #   15 strs-living- in stairs not yet defined
-   3   2  -1   0   0  #   16 strs-E in stairs not yet defined
-   3   3  -1   0   0  #   17 strs-N in stairs not yet defined
-   3   4  -1   0   0  #   18 strs-garage in stairs not yet defined
-   3   5  -1   0   0  #   19 strs-top in stairs not yet defined
-   3   6  -1   0   0  #   20 strs-bot in stairs not yet defined
-   3   7   0   0   0  #   21 strs-bdrms-W in stairs is External
-   3   8   0   0   0  #   22 strs-bdrms-S in stairs is External
-   4   1  -1   0   0  #   23 bdrms-W in bdrooms not yet defined
-   4   2  -1   0   0  #   24 Bdrms-N in bdrooms not yet defined
-   4   3  -1   0   0  #   25 bdrms-strs-E in bdrooms not yet defined
-   4   4  -1   0   0  #   26 bdrms-strs-S in bdrooms not yet defined
-   4   5  -1   0   0  #   27 bdrms-E in bdrooms not yet defined
-   4   6  -1   0   0  #   28 bdrms-S in bdrooms not yet defined
-   4   7  -1   0   0  #   29 bdrms-top in bdrooms not yet defined
-   4   8  -1   0   0  #   30 bdrms-living in bdrooms not yet defined
-   4   9   0   0   0  #   31 bdrms-garage in bdrooms is External
+*Date Sun Mar  3 18:19:01 2013
+     33   # number of connections
+   1   1   0   0   0  #    1 living-S in living is External
+   1   2   0   0   0  #    2 living-E in living is External
+   1   3   3   2   1  #    3 living-garag in living >|< gar-living in garage
+   1   4   0   0   0  #    4 living-W in living is External
+   1   5   0   0   0  #    5 living-top in living is External
+   1   6   4   1   0  #    6 living-bot in living >|< ground profile 1
+   1   7   3   3   1  #    7 living-strs in living >|< strs-living- in stairs
+   1   8   3   4   8  #    8 living-bdrms in living >|< bdrms-living in bdrooms
+   1   9   0   0   0  #    9 S-glz in living is External
+   2   1   3   1   3  #   10 gar-living in garage >|< living-garag in living
+   2   2   3   3   4  #   11 gar-strs in garage >|< strs-garage in stairs
+   2   3   0   0   0  #   12 gar-N in garage is External
+   2   4   0   0   0  #   13 gar-W in garage is External
+   2   5   3   4   9  #   14 gar-bdrms in garage >|< bdrms-garage in bdrooms
+   2   6   4   1   0  #   15 gar-bot in garage >|< ground profile 1
+   3   1   3   1   7  #   16 strs-living- in stairs >|< living-strs in living
+   3   2   0   0   0  #   17 strs-E in stairs is External
+   3   3   0   0   0  #   18 strs-N in stairs is External
+   3   4   3   2   2  #   19 strs-garage in stairs >|< gar-strs in garage
+   3   5   0   0   0  #   20 strs-top in stairs is External
+   3   6   4   1   0  #   21 strs-bot in stairs >|< ground profile 1
+   3   7   3   4   3  #   22 strs-bdrms-W in stairs >|< bdrms-strs-E in bdrooms
+   3   8   3   4   4  #   23 strs-bdrms-S in stairs >|< bdrms-strs-S in bdrooms
+   4   1   0   0   0  #   24 bdrms-W in bdrooms is External
+   4   2   0   0   0  #   25 Bdrms-N in bdrooms is External
+   4   3   3   3   7  #   26 bdrms-strs-E in bdrooms >|< strs-bdrms-W in stairs
+   4   4   3   3   8  #   27 bdrms-strs-S in bdrooms >|< strs-bdrms-S in stairs
+   4   5   0   0   0  #   28 bdrms-E in bdrooms is External
+   4   6   0   0   0  #   29 bdrms-S in bdrooms is External
+   4   7   0   0   0  #   30 bdrms-top in bdrooms is External
+   4   8   3   1   8  #   31 bdrms-living in bdrooms >|< living-bdrms in living
+   4   9   3   2   5  #   32 bdrms-garage in bdrooms >|< gar-bdrms in garage
+   4  10   0   0   0  #   33 S-glz in bdrooms is External
