@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,stairs # tag version, format, zone name
-*date Sun Mar  3 17:21:16 2013  # latest file modification 
+*date Sun Mar  3 17:23:39 2013  # latest file modification 
 stairs describes a
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,5.50000,7.00000,0.00000  #   1
@@ -30,13 +30,13 @@ stairs describes a
 #  construction name, optical name
 #  boundary condition tag followed by two data items
 *surf,strs-living-,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   1 ||< not yet defined
-*surf,strs-E,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   2 ||< not yet defined
-*surf,strs-N,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   3 ||< not yet defined
-*surf,strs-garage,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   4 ||< not yet defined
-*surf,strs-top,CEIL,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   5 ||< not yet defined
-*surf,strs-bot,FLOR,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   6 ||< not yet defined
-*surf,strs-bdrms-W,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   7 ||< external
-*surf,strs-bdrms-S,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   8 ||< external
+*surf,strs-E,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   2 ||< not yet defined
+*surf,strs-N,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   3 ||< not yet defined
+*surf,strs-garage,VERT,-,-,-,PH_ext_wll,OPAQUE,UNKNOWN,0,0  #   4 ||< not yet defined
+*surf,strs-top,CEIL,-,-,-,PH_roof,OPAQUE,UNKNOWN,0,0  #   5 ||< not yet defined
+*surf,strs-bot,FLOR,-,-,-,grnd_floor,OPAQUE,UNKNOWN,0,0  #   6 ||< not yet defined
+*surf,strs-bdrms-W,VERT,-,-,-,int_part,OPAQUE,UNKNOWN,0,0  #   7 ||< external
+*surf,strs-bdrms-S,VERT,-,-,-,int_part,OPAQUE,UNKNOWN,0,0  #   8 ||< external
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
