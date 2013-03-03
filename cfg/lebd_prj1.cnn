@@ -1,5 +1,5 @@
 *connections for lebd_prj1
-*Date Sun Mar  3 17:23:41 2013
+*Date Sun Mar  3 17:26:14 2013
      29   # number of connections
    1   1  -1   0   0  #    1 Wall-1 in living not yet defined
    1   2  -1   0   0  #    2 Wall-2 in living not yet defined
@@ -22,11 +22,11 @@
    3   6  -1   0   0  #   19 strs-bot in stairs not yet defined
    3   7   0   0   0  #   20 strs-bdrms-W in stairs is External
    3   8   0   0   0  #   21 strs-bdrms-S in stairs is External
-   4   1  -1   0   0  #   22 Wall-1 in bdrooms not yet defined
-   4   2  -1   0   0  #   23 Wall-2 in bdrooms not yet defined
-   4   3  -1   0   0  #   24 Wall-3 in bdrooms not yet defined
-   4   4  -1   0   0  #   25 Wall-4 in bdrooms not yet defined
-   4   5  -1   0   0  #   26 Wall-5 in bdrooms not yet defined
-   4   6  -1   0   0  #   27 Wall-6 in bdrooms not yet defined
-   4   7  -1   0   0  #   28 Base-7 in bdrooms not yet defined
-   4   8  -1   0   0  #   29 Top-8 in bdrooms not yet defined
+   4   1  -1   0   0  #   22 bdrms-W in bdrooms not yet defined
+   4   2  -1   0   0  #   23 Bdrms-N in bdrooms not yet defined
+   4   3  -1   0   0  #   24 bdrms-strs-E in bdrooms not yet defined
+   4   4  -1   0   0  #   25 bdrms-strs-S in bdrooms not yet defined
+   4   5  -1   0   0  #   26 bdrms-E in bdrooms not yet defined
+   4   6  -1   0   0  #   27 bdrms-S in bdrooms not yet defined
+   4   7  -1   0   0  #   28 bdrms-top in bdrooms not yet defined
+   4   8  -1   0   0  #   29 bdrms-bot in bdrooms not yet defined
