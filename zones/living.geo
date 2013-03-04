@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,living # tag version, format, zone name
-*date Mon Mar  4 18:15:53 2013  # latest file modification 
+*date Mon Mar  4 18:36:55 2013  # latest file modification 
 living describes a
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,0.00000,0.00000  #   1
@@ -48,9 +48,11 @@ living describes a
 *insol,3,0,0,0  # default insolation distribution
 # 
 # shading directives
-*shad_calc,none  # no temporal shading requested
+*shad_calc,all_applicable   5 # list of surfs
+  1  2  4  5  9
 # 
-*insol_calc,none  # no insolation requested
+*insol_calc,all_applicable   1 # insolation sources
+  9
 # 
 *base_list,0,59.50,0  # zone base
 # 
