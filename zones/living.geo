@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,living # tag version, format, zone name
-*date Sun Mar  3 19:11:26 2013  # latest file modification 
+*date Mon Mar  4 18:15:53 2013  # latest file modification 
 living describes a
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,0.00000,0.00000  #   1
@@ -53,3 +53,9 @@ living describes a
 *insol_calc,none  # no insolation requested
 # 
 *base_list,0,59.50,0  # zone base
+# 
+# block entities:
+#  *obs = obstructions
+*block_start, 20 20 # geometric blocks
+*obs,0.000,-1.500,3.000,8.500,1.500,0.100,0.000,1.00,overhang,roof_1  # block   1
+*end_block

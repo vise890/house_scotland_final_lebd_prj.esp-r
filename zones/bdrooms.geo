@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,bdrooms # tag version, format, zone name
-*date Sun Mar  3 19:23:40 2013  # latest file modification 
+*date Mon Mar  4 18:14:22 2013  # latest file modification 
 bdrooms describes a
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,4.00000,3.00000  #   1
@@ -56,3 +56,11 @@ bdrooms describes a
 *insol_calc,none  # no insolation requested
 # 
 *base_list,0,47.50,0  # zone base
+# 
+# block entities:
+#  *obs = obstructions
+*block_start, 20 20 # geometric blocks
+*obsp,8,6,0.00,overhang,roof_1  # block   1 coords follow:
+0.000,2.500,6.000,8.500,2.500,6.000,8.500,4.000,6.000,0.000,4.000,6.000  # 1-4 
+0.000,2.500,6.100,8.500,2.500,6.100,8.500,4.000,6.100,0.000,4.000,6.100  # 5-8 
+*end_block
