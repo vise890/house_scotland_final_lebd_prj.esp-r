@@ -1,5 +1,5 @@
 *connections for lebd_prj1
-*Date Mon Mar 25 05:39:00 2013
+*Date Mon Mar 25 05:48:31 2013
      33   # number of connections
    1   1   0   0   0  #    1 living-S in living is External
    1   2   0   0   0  #    2 living-E in living is External
