@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,bdrooms # tag version, format, zone name
-*date Mon Mar 25 17:09:03 2013  # latest file modification 
+*date Mon Mar 25 17:13:02 2013  # latest file modification 
 bdrooms describes a
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,4.00000,3.00000  #   1
@@ -46,7 +46,7 @@ bdrooms describes a
 *surf,bdrms-top,CEIL,-,-,-,PH_roof,OPAQUE,EXTERIOR,0,0  #   7 ||< external
 *surf,bdrms-living,FLOR,-,-,-,ceiling_rev,OPAQUE,ANOTHER,01,08  #   8 ||< living-bdrms:living
 *surf,bdrms-garage,FLOR,-,-,-,PH_ext_wll,OPAQUE,ANOTHER,02,05  #   9 ||< gar-bdrms:garage
-*surf,S-glz,VERT,bdrms-S,C-WINDOW,CLOSED,tripglz_089,TRAN,EXTERIOR,0,0  #  10 ||< external
+*surf,S-glz,VERT,bdrms-S,C-WINDOW,CLOSED,tripglz_089,tr_Kgl_arg,EXTERIOR,0,0  #  10 ||< external
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
@@ -58,3 +58,9 @@ bdrooms describes a
  10
 # 
 *base_list,0,47.50,0  # zone base
+# 
+# block entities:
+#  *obs = obstructions
+*block_start, 20 20 # geometric blocks
+*obs,0.000,3.500,6.000,8.500,0.500,0.100,0.000,1.00,overhang,roof  # block   1
+*end_block
