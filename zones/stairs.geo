@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,stairs # tag version, format, zone name
-*date Sun Mar  3 19:11:27 2013  # latest file modification 
+*date Mon Mar 25 05:29:01 2013  # latest file modification 
 stairs describes a
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,5.50000,7.00000,0.00000  #   1
