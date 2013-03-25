@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,bdrooms # tag version, format, zone name
-*date Mon Mar  4 18:36:13 2013  # latest file modification 
+*date Mon Mar  4 18:40:27 2013  # latest file modification 
 bdrooms describes a
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,4.00000,3.00000  #   1
@@ -62,5 +62,5 @@ bdrooms describes a
 # block entities:
 #  *obs = obstructions
 *block_start, 20 20 # geometric blocks
-*obs,0.000,2.500,6.000,8.500,1.500,0.100,0.000,1.00,overhang,NONE  # block   1
+*obs,0.000,3.000,6.000,8.500,1.000,0.100,0.000,1.00,overhang,NONE  # block   1
 *end_block
