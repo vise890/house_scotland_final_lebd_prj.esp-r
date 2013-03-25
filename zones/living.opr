@@ -1,5 +1,5 @@
 *Operations 2.0
-*date Mon Mar 25 23:07:06 2013  # latest file modification 
+*date Mon Mar 25 23:16:11 2013  # latest file modification 
 # operations of living defined in: 
 # ../zones/living.opr
 Thermostatically controlled infiltration. Occ, Light and Eqp gains
@@ -8,9 +8,9 @@ Thermostatically controlled infiltration. Occ, Light and Eqp gains
 # lower: infil, vent, source, data
      0.080     0.000    0     0.000
 # middle: infil, vent, source, data
-     0.600     0.000    0     0.000
-# high: infil, vent, source, data
      1.500     0.000    0     0.000
+# high: infil, vent, source, data
+     3.000     0.000    0     0.000
      1   # number of flow periods in day type: weekdays    
 # start, stop, infil, ventil, source, data
    0, 24,    0.080    0.000    0    0.000
