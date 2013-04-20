@@ -4,11 +4,11 @@
 # ../zones/living.opr
 Thermostatically controlled infiltration. Occ, Light and Eqp gains
 # control(infil only: zone temp   ), low mid & high setpoints 
- -11    15.000    22.000    24.000
+ -11    21.000    22.000    25.000
 # lower: infil, vent, source, data
      0.080     0.000    0     0.000
 # middle: infil, vent, source, data
-     1.500     0.000    0     0.000
+     0.500     0.000    0     0.000
 # high: infil, vent, source, data
      3.000     0.000    0     0.000
      1   # number of flow periods in day type: weekdays    
